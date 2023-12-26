@@ -483,4 +483,19 @@ document.addEventListener("DOMContentLoaded", function () {
         container.classList.remove("hidden-container");
         // You can add additional animations or transitions here
     }
+
+
+
+
+    
 });
+
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    var navToggle = document.getElementById("nav-toggle");
+    var navLinks = document.querySelector(".nav-links");
+
+    navToggle.addEventListener("change", function () {
+        navLinks.classList.toggle("active", this.checked);
+    });});
